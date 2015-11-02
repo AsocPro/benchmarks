@@ -1,11 +1,18 @@
 CFLAGS = -std=gnu11
 
-c: c.c
+ITERATIONS ?= 5
 
-test:
-	@zsh -c 'for b in *.sh; do for (( i=0; i <= 4; ++i )) LIMIT=999999 =time ./$$b; done'
+all: reduce_scm reduce_c
+
+reduce_c: reduce_c.c
+
+reduce_scm: reduce_scm.scm
+	csc $^
+
+test: 
+	@zsh -c 'for b in *.sh; do for (( i=0; i < $(ITERATIONS); ++i )) LIMIT=999999 =time ./$$b; done'
 
 clean:
-	-rm c
+	-rm c reduce_scm
 
 .PHONY: test clean
