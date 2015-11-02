@@ -1,0 +1,2 @@
+  987  /usr/bin/time ruby -e 'puts (0..9999999).to_a.reduce(:+)'
+  988  /usr/bin/time csi -R srfi-1 -p '(reduce + 0 (iota 9999999))'
