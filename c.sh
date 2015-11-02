@@ -6,4 +6,4 @@ LIMIT=${LIMIT:-999999}
 echo
 echo $0: LIMIT=$LIMIT
 
-LIMIT=$LIMIT ./c
+LIMIT=$LIMIT ./reduce_c
