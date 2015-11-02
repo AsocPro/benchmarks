@@ -13,6 +13,6 @@ test:
 	@zsh -c 'for b in *.sh; do for (( i=0; i < $(ITERATIONS); ++i )) LIMIT=999999 =time ./$$b; done'
 
 clean:
-	-rm c reduce_scm
+	-rm reduce_c reduce_scm
 
 .PHONY: test clean
