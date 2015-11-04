@@ -2,7 +2,9 @@
 
 ; Practical Common Lisp http://www.gigamonkeys.com/book/
 
-; TODO - CL must already have a way to do this
+;; My own function which generates the sequence of integers
+;; this appears to be around 25% faster than the loop macro
+;; 1.90s vs 1.43s
 (defun iota (n)
   (let ((lst nil))
 	(dotimes (i n)
