@@ -7,7 +7,7 @@ TODO:
 	* Java (To Be Installed)
 	* C++
 	* NodeJS (To Be Installed) 
-	* Lua (being installed)
+	* Lua
 	* PHP
 	* Bash
 	* Zsh
@@ -18,3 +18,4 @@ TODO:
 	* Rewrite AWK to not use a list of numbers from STDIN
 	* GNU Make (Maybe)
 	* COBOL (open-cobol)
+	* Rust
