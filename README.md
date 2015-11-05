@@ -3,18 +3,20 @@ TODO:
 	each language's runtime metrics
 
 TODO:
-	* Go   (gccgo)
-	* Java (To Be Installed)
-	* C++
-	* NodeJS (To Be Installed) 
-	* Lua (being installed)
-	* PHP
-	* Bash
-	* Zsh
-	* Tcl
-	* ASM
-	* LISP
-	* FORTRAN
-	* Rewrite AWK to not use a list of numbers from STDIN
-	* GNU Make (Maybe)
-	* COBOL (open-cobol)
+	* [Zach] Go (gccgo)
+	* [Chad] Java
+	* [Chad] C++
+	* [    ] NodeJS (To Be Installed)
+	* [Chad] Lua
+	* [Erik] Bash
+	* [Erik] Zsh
+	* [    ] Tcl
+	* [    ] x86 ASM
+	* [Erik] LISP
+	* [    ] FORTRAN
+	* [    ] Rewrite AWK to not use a list of numbers from STDIN
+	* [    ] GNU Make (Maybe)
+	* [Zach] COBOL (open-cobol)
+	* [Zach] Rust
+	* [    ] Pascal
+	* [    ] R

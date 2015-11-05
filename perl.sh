@@ -1,5 +1,4 @@
 #!/usr/bin/bash
-# run as /usr/bin/time ./perl.sh
 
 LIMIT=${LIMIT:-999999}
 
