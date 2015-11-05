@@ -7,7 +7,6 @@ TODO:
 	* [Chad] Java
 	* [Chad] C++
 	* [    ] NodeJS (To Be Installed)
-	* [Chad] Lua
 	* [Erik] Bash
 	* [Erik] Zsh
 	* [    ] Tcl
