@@ -1,4 +1,5 @@
 TODO:
+
 	Make a better test harness that will run and accumulate and average out
 	each language's runtime metrics
 
@@ -7,7 +8,6 @@ TODO:
 	* [Chad] Java
 	* [Chad] C++
 	* [    ] NodeJS (To Be Installed)
-	* [Chad] Lua
 	* [Erik] Bash
 	* [Erik] Zsh
 	* [    ] Tcl
@@ -18,5 +18,6 @@ TODO:
 	* [    ] GNU Make (Maybe)
 	* [Zach] COBOL (open-cobol)
 	* [Zach] Rust
-	* [    ] Pascal
+	* [Max ] Pascal
 	* [    ] R
+	* [    ] Erlang (To Be Installed)
