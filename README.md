@@ -1,4 +1,5 @@
 TODO:
+
 	Make a better test harness that will run and accumulate and average out
 	each language's runtime metrics
 
@@ -17,5 +18,5 @@ TODO:
 	* [    ] GNU Make (Maybe)
 	* [Zach] COBOL (open-cobol)
 	* [Zach] Rust
-	* [    ] Pascal
+	* [Max ] Pascal
 	* [    ] R
