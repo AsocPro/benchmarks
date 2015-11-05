@@ -4,7 +4,7 @@ limit = os.getenv("LIMIT")
 limitnum = tonumber(limit)
 
 if(limitnum == nil)then
-	limitnum = 1
+	limitnum = 999999
 end
 
 a = {}
