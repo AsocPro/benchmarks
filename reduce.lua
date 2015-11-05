@@ -1,7 +1,6 @@
 #!/usr/bin/lua
 
 limit = os.getenv("LIMIT")
-print (limit)
 limitnum = tonumber(limit)
 
 if(limitnum == nil)then
