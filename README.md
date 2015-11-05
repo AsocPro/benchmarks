@@ -19,3 +19,4 @@ TODO:
 	* [Zach] Rust
 	* [    ] Pascal
 	* [    ] R
+	* [    ] Erlang (To Be Installed)
