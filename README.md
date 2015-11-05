@@ -21,3 +21,4 @@ TODO:
 	* [Max ] Pascal
 	* [    ] R
 	* [    ] Erlang (To Be Installed)
+	* [    ] Perl6 (Rakudo)
