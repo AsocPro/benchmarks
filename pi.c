@@ -23,6 +23,6 @@ int main(int argc, char* argv[]) {
             inside++;
     }
 
-    printf("pi ~ %f\n", ((double)inside / (double)lim) * 4);
+    printf("pi ~ %.10f\n", ((double)inside / (double)lim) * 4);
     return 0;
 }
