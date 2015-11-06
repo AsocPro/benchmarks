@@ -3,7 +3,7 @@
 #include <cstdlib>
 
 int main(){
-	char* limit = std::getenv ("LIMIT");
+	const char* limit = std::getenv ("LIMIT");
 	int numlimit = std::atoi(limit);
 	std::vector<int> a;
 
