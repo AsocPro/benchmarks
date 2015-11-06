@@ -1,4 +1,5 @@
 CFLAGS = -std=gnu11
+CXXFLAGS = -std=c++11 -g
 
 ITERATIONS ?= 5
 LIMIT ?= 999999
