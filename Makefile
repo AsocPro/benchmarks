@@ -1,19 +1,14 @@
-CFLAGS = -std=gnu11
+BENCHMARKS = pi reduce
 
-ITERATIONS ?= 5
-LIMIT ?= 999999
+all: $(BENCHMARKS)
 
-all: reduce_scm reduce_c
+$(BENCHMARKS):
+	$(MAKE) -C $@
 
-reduce_c: reduce_c.c
-
-reduce_scm: reduce_scm.scm
-	csc $^
-
-test: 
-	@zsh -c 'for b in *.sh(*); do for (( i=0; i < $(ITERATIONS); ++i )) LIMIT=$(LIMIT) =time ./$$b; done'
-
+# There has just got to be a better way to do this
 clean:
-	-rm reduce_c reduce_scm
+	$(MAKE) -C pi     $@ 
+	$(MAKE) -C reduce $@ 
 
-.PHONY: test clean
+
+.PHONY: pi reduce clean
