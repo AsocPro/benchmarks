@@ -1,9 +1,9 @@
-CFLAGS = -std=gnu11
+CFLAGS = -std=gnu11 -lm
 
 ITERATIONS ?= 5
 LIMIT ?= 999999
 
-all: reduce_scm reduce_c
+all: reduce_scm reduce_c pi
 
 reduce_c: reduce_c.c
 
