@@ -3,7 +3,7 @@ class reduce_java{
 		int numLimit = 999999;	
 		String limit = System.getenv("LIMIT");
 
-		int sum = 0;
+		long sum = 0;
 		
 		if(limit != null && !limit.isEmpty()){
 			numLimit = Integer.parseInt(limit);
