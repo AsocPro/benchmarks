@@ -2,22 +2,27 @@ class reduce_java{
 	public static void main(String[] args){
 		int numLimit = 999999;	
 		String limit = System.getenv("LIMIT");
-		
-		int[] a = null;
+
 		int sum = 0;
 		
-		if(limit.equals(null)){
+		if(limit != null && !limit.isEmpty()){
 			numLimit = Integer.parseInt(limit);
 		}
 
-		for (int i = 0; i < numLimit; i++){
-			a[i] = i;
+		int[] arg = new int[numLimit+1];
+
+		for (int i = 0; i < numLimit + 1; i++){
+			arg[i] = i;
+			
 		}
 
-		for (int i = 0; i < a.length; i++){
-			sum += a[i];	
+		System.out.println(arg[numLimit]);
+	
+		for (int n : arg){
+			sum += n;
 		}
 
+		System.out.println(sum);
 
 	}
 
