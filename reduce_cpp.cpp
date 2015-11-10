@@ -11,17 +11,17 @@ int main(){
 		int numlimit = std::atoi(limit);
 	}
 	std::vector<int> a;
-	std::vector<int>::iterator it;
 	a.reserve(numlimit);	
 
-	it = a.begin();
-	it = a.insert(it,0,numlimit);
+	for(int i = 0; i < numlimit; i++){ 
+		a[i] = i;
+	}
 
-	int sum = 0;
+	long sum = 0;
 
-	std::for_each(a.begin(), a.end(), [&] (int n) {
+	for (int n = 0; n < numlimit; n++){
 	    sum += n;
-	});
+	}
 
 	std::cout << sum << std::endl;
 }
