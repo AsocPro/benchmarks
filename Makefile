@@ -4,7 +4,7 @@ CXXFLAGS = -std=c++11 -g
 ITERATIONS ?= 5
 LIMIT ?= 999999
 
-all: reduce_scm reduce_c
+all: reduce_scm reduce_c reduce_java
 
 reduce_c: reduce_c.c
 
