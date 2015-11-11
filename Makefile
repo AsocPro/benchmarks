@@ -10,5 +10,4 @@ clean:
 	$(MAKE) -C pi     $@ 
 	$(MAKE) -C reduce $@ 
 
-
 .PHONY: pi reduce clean

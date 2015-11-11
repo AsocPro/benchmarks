@@ -15,7 +15,6 @@ Create a list of N integers in the range [0 .. N]
 Reduce this list to its sum, and output the sum
 
 TODO:
-	* [Zach] Go (/usr/bin/gccgo)
 	* [Chad] Java (/usr/lib64/java/bin/javac)
 	* [Chad] C++
 	* [    ] NodeJS (To Be Installed)
