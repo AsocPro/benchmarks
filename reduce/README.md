@@ -15,8 +15,6 @@ Create a list of N integers in the range [0 .. N]
 Reduce this list to its sum, and output the sum
 
 TODO:
-	* [Chad] Java (/usr/lib64/java/bin/javac)
-	* [Chad] C++
 	* [    ] NodeJS (To Be Installed)
 	* [Erik] Bash
 	* [Erik] Zsh
@@ -30,5 +28,5 @@ TODO:
 	* [Zach] Rust
 	* [Max ] Pascal (Free Pascal, /usr/bin/fpc)
 	* [    ] R (/usr/bin/R)
-	* [    ] Erlang (/usr/bin/erl)
+	* [Chad] Erlang (/usr/bin/erl)
 	* [    ] Perl6 (Rakudo, TO BE INSTALLED)
