@@ -1,8 +1,9 @@
+#include <iostream>
+#include <iomanip>
 #include <stdlib.h>
-#include <stdio.h>
 
 int main(int argc, char* argv[]) {
-    long lim = 1000000,
+    long lim = 999999,
          inside = 0,
 		 seed = 0;
 
@@ -23,6 +24,10 @@ int main(int argc, char* argv[]) {
             inside++;
     }
 
-    printf("pi ~ %.10f\n", ((double)inside / (double)lim) * 4);
+	std::cout << "pi ~ "
+		<< std::setprecision(16)
+		<< (((double)inside / (double)lim) * 4)
+		<< std::endl;
+
     return 0;
 }
