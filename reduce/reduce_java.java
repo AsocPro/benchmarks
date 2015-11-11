@@ -16,8 +16,6 @@ class reduce_java{
 			
 		}
 
-		System.out.println(arg[numLimit]);
-	
 		for (int n : arg){
 			sum += n;
 		}
