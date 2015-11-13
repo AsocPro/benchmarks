@@ -15,12 +15,9 @@ Create a list of N integers in the range [0 .. N]
 Reduce this list to its sum, and output the sum
 
 TODO:
-	* [    ] NodeJS (To Be Installed)
-	* [Erik] Bash
-	* [Erik] Zsh
+	* [Dave] NodeJS
 	* [    ] Tcl (/usr/bin/tclsh8.6)
 	* [    ] x86 ASM
-	* [Erik] LISP
 	* [    ] FORTRAN
 	* [    ] Rewrite AWK to not use a list of numbers from STDIN
 	* [    ] GNU Make (Maybe)
