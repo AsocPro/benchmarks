@@ -5,7 +5,7 @@ CSC_OPTIONS = -O4 -vv
 ITERATIONS ?= 5
 LIMIT ?= 999999
 
-BINARIES = reduce_scm reduce_c reduce_cpp reduce_java.class reduce_go reduce_cobol
+BINARIES = reduce_scm reduce_c reduce_cpp reduce_java.class reduce_go reduce_rust reduce_cobol
 
 all: $(BINARIES)
 
@@ -17,6 +17,9 @@ reduce_java.class: reduce_java.java
 
 reduce_go: reduce_go.go
 	gccgo -o reduce_go $^
+
+reduce_rust: reduce_rust.rs
+	rustc -C opt-level=3 -o reduce_rust $^
 
 reduce_cobol: reduce_cobol.cbl
 	cobc -x $^
