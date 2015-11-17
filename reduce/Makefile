@@ -19,7 +19,7 @@ reduce_go: reduce_go.go
 	gccgo -o reduce_go $^
 
 reduce_rust: reduce_rust.rs
-	rustc -o reduce_rust $^
+	rustc -C opt-level=3 -o reduce_rust $^
 
 reduce_cobol: reduce_cobol.cbl
 	cobc -x $^
