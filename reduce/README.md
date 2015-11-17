@@ -22,7 +22,6 @@ TODO:
 	* [    ] Rewrite AWK to not use a list of numbers from STDIN
 	* [    ] GNU Make (Maybe)
 	* [Zach] COBOL (open-cobol, /usr/bin/cobc)
-	* [Zach] Rust
 	* [Max ] Pascal (Free Pascal, /usr/bin/fpc)
 	* [    ] R (/usr/bin/R)
 	* [Chad] Erlang (/usr/bin/erl)
