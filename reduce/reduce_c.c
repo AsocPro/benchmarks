@@ -9,7 +9,7 @@ int main(void) {
 	if (LIMIT)
 		lim = (long long unsigned int)atoll(LIMIT);
 
-	if ((a = (void *)malloc(sizeof(long long unsigned int) * lim)) == NULL) {
+	if ((a = malloc(sizeof(lim) * (lim + 1))) == NULL) {
 		perror("malloc()");
 		exit(1);
 	}
@@ -22,4 +22,5 @@ int main(void) {
 		sum += a[i];
 
 	printf("%llu\n", sum);
+	free(a);
 }
