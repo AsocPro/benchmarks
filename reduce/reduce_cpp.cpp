@@ -8,7 +8,7 @@ int main(){
 	const char* limit = std::getenv ("LIMIT");
 
 	if(limit){
-		int numlimit = std::atoi(limit);
+		numlimit = std::atoi(limit);
 	}
 	std::vector<int> a;
 	a.reserve(numlimit);	
