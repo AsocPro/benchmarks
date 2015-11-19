@@ -1,4 +1,2 @@
-reduce_c
-reduce_rust
-reduce_scm
+*.class
 *.sw[pon]

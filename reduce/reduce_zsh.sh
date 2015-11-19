@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/env zsh
 
 LIMIT=${LIMIT:-999999}
 

@@ -1,0 +1,4 @@
+# Exclude reduce_* binaries
+reduce_*
+!reduce_*.*
+*.class
