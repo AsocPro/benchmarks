@@ -6,4 +6,4 @@ export LIMIT=${LIMIT:-999999}
 echo 
 echo $0: LIMIT=$LIMIT
 
-/usr/bin/time ./reduce.lua 
+/usr/bin/time ./reduce_lua.lua

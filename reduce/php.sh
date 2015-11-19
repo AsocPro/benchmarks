@@ -5,5 +5,5 @@ LIMIT=${LIMIT:-999999}
 echo
 echo $0: LIMIT=$LIMIT
 
-/usr/bin/time ./php.php
+/usr/bin/time ./reduce_php.php
 
