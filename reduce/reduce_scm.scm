@@ -6,4 +6,4 @@
 (let ((e (get-environment-variable "LIMIT")))
   (if e (set! lim (string->number e))))
 
-(print (reduce + 0 (iota lim)))
+(print (reduce + 0 (iota (+ lim 1))))

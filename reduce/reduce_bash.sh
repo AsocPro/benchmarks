@@ -7,7 +7,7 @@ echo $0: LIMIT=$LIMIT
 
 declare -i SUM
 
-for ((i = 0; i < $LIMIT; ++i)); do
+for ((i = 0; i <= $LIMIT; ++i)); do
 	let SUM=$((SUM + i))
 done
 
