@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/env zsh
 # run as /usr/bin/time ./seq+dc.sh
 
 LIMIT=${LIMIT:-999999}

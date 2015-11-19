@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 # run as /usr/bin/time ./awk
 
 LIMIT=${LIMIT:-999999}

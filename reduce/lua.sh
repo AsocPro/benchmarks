@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 # run as /usr/bin/time ./lua.sh
 
 export LIMIT=${LIMIT:-999999}
