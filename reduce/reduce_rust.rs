@@ -25,6 +25,6 @@ fn main() {
         Ok(n) => n,
         Err(_) => 999999,
     };
-    let nums = (1..limit).collect::<Vec<u64>>();
+    let nums = (0..limit).collect::<Vec<u64>>();
     println!("{}", nums.iter().fold(0, |acc, &item| acc + item));
 }
