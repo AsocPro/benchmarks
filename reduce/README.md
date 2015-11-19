@@ -23,6 +23,5 @@ TODO:
 	* [    ] GNU Make (Maybe)
 	* [Zach] COBOL (open-cobol, /usr/bin/cobc)
 	* [Max ] Pascal (Free Pascal, /usr/bin/fpc)
-	* [    ] R (/usr/bin/R)
 	* [Chad] Erlang (/usr/bin/erl)
 	* [    ] Perl6 (Rakudo, TO BE INSTALLED)
