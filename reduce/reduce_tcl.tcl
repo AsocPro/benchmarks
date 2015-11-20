@@ -6,4 +6,8 @@ for {set i 0} {$i < $limit} {incr i} {
 	lappend integers $i
 }
 
-puts [expr [join $integers +]]
+set sum 0
+for {set i 0} {$i <= $limit} {incr i} {
+	set sum [expr {$sum + $i}]
+}
+puts $sum
