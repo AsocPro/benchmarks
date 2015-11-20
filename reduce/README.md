@@ -15,7 +15,6 @@ Create a list of N integers in the range [0 .. N]
 Reduce this list to its sum, and output the sum
 
 TODO:
-	* [    ] Tcl (/usr/bin/tclsh8.6)
 	* [    ] x86 ASM
 	* [    ] FORTRAN
 	* [    ] Rewrite AWK to not use a list of numbers from STDIN
