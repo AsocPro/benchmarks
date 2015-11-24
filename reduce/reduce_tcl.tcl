@@ -1,13 +1,22 @@
 #!/usr/bin/env tclsh
 
-set limit [expr {[info exists env(LIMIT)] ? $env(LIMIT) : 999999}]
+proc reduce {limit} {
+	for {set i 0} {$i <= $limit} {incr i} {
+		lappend integers $i
+	}
 
-for {set i 0} {$i <= $limit} {incr i} {
-	lappend integers $i
+	set sum 0
+	foreach i $integers {
+		incr sum $i
+	}
+
+	return $sum
 }
 
-set sum 0
-foreach i $integers {
-	set sum [expr {$sum + $i}]
+proc main {} {
+	global env
+
+	puts [reduce [expr {[info exists env(LIMIT)] ? $env(LIMIT) : 999999}]]
 }
-puts $sum
+
+main
