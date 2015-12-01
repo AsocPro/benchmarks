@@ -17,10 +17,10 @@ reduce_java.class: reduce_java.java
 	javac $^
 
 reduce_go: reduce_go.go
-	gccgo -o reduce_go $^
+	gccgo -o $@ $^
 
 reduce_rust: reduce_rust.rs
-	rustc -C opt-level=3 -o reduce_rust $^
+	rustc -C opt-level=3 -o $@ $^
 
 reduce_haskell: reduce_haskell.hs
 	ghc $(HC_OPTIONS) $^
