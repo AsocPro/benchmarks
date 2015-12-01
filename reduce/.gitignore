@@ -2,3 +2,5 @@
 reduce_*
 !reduce_*.*
 *.class
+*.o
+*.hi
