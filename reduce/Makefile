@@ -6,7 +6,7 @@ HC_OPTIONS = -O2
 ITERATIONS ?= 5
 LIMIT ?= 999999
 
-BINARIES = reduce_scm reduce_c reduce_cpp reduce_java.class reduce_go reduce_rust reduce_haskell reduce_cobol
+BINARIES = reduce_scm reduce_c reduce_cpp reduce_java.class reduce_go reduce_rust reduce_swift reduce_haskell reduce_cobol
 
 all: $(BINARIES)
 
@@ -21,6 +21,9 @@ reduce_go: reduce_go.go
 
 reduce_rust: reduce_rust.rs
 	rustc -C opt-level=3 -o $@ $^
+
+reduce_swift: reduce_swift.swift
+	swiftc -O $^
 
 reduce_haskell: reduce_haskell.hs
 	ghc $(HC_OPTIONS) $^
