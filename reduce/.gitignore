@@ -4,3 +4,4 @@ reduce_*
 *.class
 *.o
 *.hi
+*.im
