@@ -6,7 +6,7 @@ HC_OPTIONS = -O2
 ITERATIONS ?= 5
 LIMIT ?= 999999
 
-BINARIES = reduce_scm reduce_c reduce_cpp reduce_java.class reduce_go reduce_rust reduce_haskell reduce_cobol
+BINARIES = reduce_scm reduce_c reduce_cpp reduce_java.class reduce_go reduce_rust reduce_haskell 
 
 all: $(BINARIES)
 
@@ -24,9 +24,6 @@ reduce_rust: reduce_rust.rs
 
 reduce_haskell: reduce_haskell.hs
 	ghc $(HC_OPTIONS) $^
-
-reduce_cobol: reduce_cobol.cbl
-	cobc -x $^
 
 test: 
 	@zsh -c 'for b in *.sh(*); do for (( i=0; i < $(ITERATIONS); ++i )) LIMIT=$(LIMIT) =time ./$$b; done'
